@@ -58,3 +58,4 @@ python_version = "3.11"
 
 [scripts]
 server = 'python ./odoo-bin --addons-path="addons/,addons_custom/"'
+dev = 'python ./odoo-bin --addons-path="addons/,addons_custom/" --dev all'
